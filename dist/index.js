@@ -1,2 +1,4 @@
-"use strict";
-// place files you want to import through the `$lib` alias in this folder.
+import Chatbot from './Chatbot.svelte';
+// export default Chatbot;
+// or named export:
+export { Chatbot };
